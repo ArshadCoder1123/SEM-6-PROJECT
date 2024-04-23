@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+
+  <style>
+    /* Additional CSS for responsiveness */
+    body {
+      background-color: #f2f2f2; /* Professional background color */
+      font-family: Arial, sans-serif;
+      background-image: url('https://img.freepik.com/free-vector/blue-white-gradient-abstract-background_53876-60241.jpg?size=626&ext=jpg&ga=GA1.1.400435925.1713806394&semt=ais');
+  background-size:cover ;
+    }
+
+
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .title-division {
+      text-align: center;
+      margin-bottom: 100px;
+      margin-top: 30px;
+    }
+
+    .title-division h1 {
+      font-size: 36px;
+      color: #333;
+      margin-top: 0;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; /* Space between profile cards */
+    }
+
+    
+    .card:hover {
+      transform: translateY(-5px); /* Lift the card slightly on hover */
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+
+    .university {
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .social-links {
+      margin-top: 15px;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin-right: 10px;
+      color: #666;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+    .social-links a:last-child {
+      margin-right: 0;
+    }
+
+    .contact-btn {
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .contact-btn:hover {
+      background-color:black;
+    }
+
+    .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: auto;
+    text-align:center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  </style>
+ 
+</head>
+<body>
+  <div class="container">
+    <div class="title-division">
+      <h1>Teacher's Profile</h1>
+    </div>
+    <div class="row">
+      <!-- Profile 1 -->
+      <div class="card">
+        <img src="ahmedsir.jpg" alt="John">
+        <div class="card-content">
+          <h1>Dr.Ahmed Shaikh</h1>
+          <p class="title">HOD & Assistant Professor</p>
+          <p class="university">DBMS , CLOUD COMPUTING</p>
+          <div class="social-links">
+            <a href="#"> <i class="fab fa-dribbble"></i></a>
+            <a href="#"> <i class="fab fa-twitter"></i></a>
+            <a href="#"> <i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+          <p><button class="contact-btn">Contact</button></p>
+        </div>
+      </div>
+      
+      <!-- Repeat the above card 3 more times -->
+      <div class="card">
+        <img src="zainabmaam.jpg" alt="John">
+        <div class="card-content">
+          <h1>Dr. Zainab Pirani</h1>
+          <p class="title">Assitant Professor</p>
+          <p class="university">Software Engineering</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+          <p><button class="contact-btn">Contact</button></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="nazneenmaam.jpg" alt="John">
+        <div class="card-content">
+          <h1>Dr. Nazneen Pendhari</h1>
+          <p class="title">Assistant Professor</p>
+          <p class="university">Computer Networks</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+          <p><button class="contact-btn">Contact</button></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="anandbali.jpg" alt="John">
+        <div class="card-content">
+          <h1>Anand Bali</h1>
+          <p class="title">Assistant Professor</p>
+          <p class="university">Digital Logic</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+          <p><button class="contact-btn">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Repeat the above row 3 more times -->
+    <div class="title-division">
+      
+    </div>
+    <div class="row">
+      <!-- Profile 1 -->
+      <div class="card">
+        <img src="farhanamaam.jpg" alt="John">
+        <div class="card-content">
+          <h1>Farhana Siddiqui</h1>
+          <p class="title">Assitant Professor</p>
+          <p class="university">Machine Learning</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+          <p><button class="contact-btn">Contact</button></p>
+        </div>
+      </div>
+      
+      <!-- Repeat the above card 3 more times -->
+      <div class="card">
+        <img src="shabanamaam.png" alt="John">
+        <div class="card-content">
+          <h1>Shabna Tadvi</h1>
+          <p class="title">Assistant Professor</p>
+          <p class="university">Data Warehousing</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+          <p><button class="contact-btn">Contact</button></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="lutfulsir.jpg" alt="John">
+        <div class="card-content">
+          <h1>Dr. Lutful Islam</h1>
+          <p class="title">Assitant Professor</p>
+          <p class="university">Artifical Intelligence</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+          <p><button class="contact-btn">Contact</button></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="waheedamaam.jpg" alt="John">
+        <div class="card-content">
+          <h1>Waheeda Dhokley</h1>
+          <p class="title">Assistant Professor</p>
+          <p class="university">Data Structure</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+          <p><button class="contact-btn">Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="title-division">
+      
+    </div>
+    <div class="row">
+      <!-- Profile 1 -->
+      <div class="card">
+        <img src="nafisamaam.jpg" alt="John">
+        <div class="card-content">
+          <h1>Nafisa Mapari</h1>
+          <p class="title">Assitant Professor</p>
+          <p class="university">Microprocessor</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+          <p><button class="contact-btn">Contact</button></p>
+        </div>
+      </div>
+      
+      <!-- Repeat the above card 3 more times -->
+      <div class="card">
+        <img src="faatimamaam.jpg" alt="John">
+        <div class="card-content">
+          <h1>Fatima Ansari</h1>
+          <p class="title">Assitant Professor</p>
+          <p class="university">Internet Programming</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+          <p><button class="contact-btn">Contact</button></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="asadsir.jpg" alt="John">
+        <div class="card-content">
+          <h1>Asadullah Shaikh</h1>
+          <p class="title">Assistant Professor</p>
+          <p class="university">Software Engineering</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+          <p><button class="contact-btn">Contact</button></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="ahlammaam.jpg" alt="John">
+        <div class="card-content">
+          <h1>Ahlam Ansari</h1>
+          <p class="title">Assitant Professor</p>
+          <p class="university">Big Data</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+          <p><button class="contact-btn">Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="title-division">
+      
+    </div>
+    
+  </div>
+</body>
+</html>
